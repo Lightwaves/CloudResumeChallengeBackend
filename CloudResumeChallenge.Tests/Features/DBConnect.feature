@@ -1,6 +1,6 @@
 ﻿Feature: DBConnect
 
-A short summary of the feature
+
 
 
 Scenario: Successfully Connecting to a Database
