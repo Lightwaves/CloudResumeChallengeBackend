@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudResumeChallengeBackend", "CloudResumeChallengeBackend\CloudResumeChallengeBackend.csproj", "{CD48BE48-7766-490D-9EA2-FE5D328F32EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudResumeChallenge.Tests", "CloudResumeChallenge.Tests\CloudResumeChallenge.Tests.csproj", "{822EE387-B2C0-4E57-9DF8-AD66DBFA75C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD48BE48-7766-490D-9EA2-FE5D328F32EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD48BE48-7766-490D-9EA2-FE5D328F32EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD48BE48-7766-490D-9EA2-FE5D328F32EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD48BE48-7766-490D-9EA2-FE5D328F32EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822EE387-B2C0-4E57-9DF8-AD66DBFA75C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822EE387-B2C0-4E57-9DF8-AD66DBFA75C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822EE387-B2C0-4E57-9DF8-AD66DBFA75C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822EE387-B2C0-4E57-9DF8-AD66DBFA75C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF63ED4B-66BB-42D5-951D-5EE07C9A9719}
+	EndGlobalSection
+EndGlobal
