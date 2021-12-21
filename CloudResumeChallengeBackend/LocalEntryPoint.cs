@@ -1,4 +1,6 @@
 using System;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
@@ -13,6 +15,10 @@ namespace CloudResumeChallengeBackend
     {
         public static void Main(string[] args)
         {
+            var root = Directory.GetCurrentDirectory();
+            var dotenv = Path.Combine(root, ".env");
+            Util.DotEnv.Load(dotenv);
+            Debug.WriteLine(System.Environment.GetEnvironmentVariable("ConnectionString"));
             CreateHostBuilder(args).Build().Run();
         }
 
