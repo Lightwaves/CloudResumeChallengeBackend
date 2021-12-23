@@ -55,7 +55,7 @@ namespace CloudResumeChallengeBackend
 
             app.UseRouting();
             app.UseCors(
-               options => options.WithOrigins("https://lightwaves.me").AllowAnyMethod().AllowAnyHeader()
+               options => options.WithOrigins("https://www.lightwaves.me", "https://lightwaves.me").AllowAnyMethod().AllowAnyHeader()
            );
             app.UseAuthorization();
 
