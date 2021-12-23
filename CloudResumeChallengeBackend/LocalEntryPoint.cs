@@ -18,7 +18,6 @@ namespace CloudResumeChallengeBackend
             var root = Directory.GetCurrentDirectory();
             var dotenv = Path.Combine(root, ".env");
             Util.DotEnv.Load(dotenv);
-            Debug.WriteLine(System.Environment.GetEnvironmentVariable("ConnectionString"));
             CreateHostBuilder(args).Build().Run();
         }
 

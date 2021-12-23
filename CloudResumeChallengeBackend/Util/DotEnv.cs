@@ -20,6 +20,8 @@
 
                 Environment.SetEnvironmentVariable(parts[0], parts[1]);
             }
+
         }
+
     }
 }

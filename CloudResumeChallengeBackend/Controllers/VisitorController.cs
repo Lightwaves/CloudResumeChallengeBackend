@@ -23,7 +23,6 @@ namespace CloudResumeChallengeBackend.Controllers
         }
 
         [HttpGet]
-
         public IActionResult GetVisitorCount() {
 
             var count = trepo.GetTotalVisitors();
@@ -41,7 +40,7 @@ namespace CloudResumeChallengeBackend.Controllers
             if (headerexist)
             {
                 var test = HttpContext.Request.Headers["x-forwarded-for"][0].Split(",");
-                ip = test[test.Count() - 1];
+                ip = test[0];
                 
 
             }
